@@ -16,6 +16,7 @@ Citation:
 Licences: Published under a CC BY licence. 
 
 #Data:
+
 Contains data extracted from Ediacaran trace fossil Lamonte trevallis surface in the Shibantan biota, Yangtze Gorges area, South China. Length units are in centimeter. 
 
 SData1 all tracefossils: data of traces, connected plugs and isolated plugs. 
@@ -30,6 +31,7 @@ Edge: positions of edge points
 Data collection dates: Data extracted from photographs 2023. 
 
 #Code
+
 1.System requirements
 	Operating system(s): Windows 11
 	Programming language: R (version 4.3.2)
@@ -53,14 +55,23 @@ Data collection dates: Data extracted from photographs 2023.
  	Installation time: less than 5 minutes on a standard desktop computer
   
 3.demo
-A minimal dataset (demo_dataset.csv) is provided for demonstration. This demo is a simplified subset of the full fossil dataset to allow quick testing of the code.
-Running instruction:
-	Open R or RStudio (version 4.3.2 or later)
-	Load the required packages and demo script (demo.R)
-Expected output
-	Figure 1: Demo trace fossil point distribution. Circle sizes denotes the lengths of traces
-	Figure 2: Density plot of points
-	Figure 3: Pair correlation function (PCF) curve
-	Figure 4: Mark correlation function (MCF) plot
- Expected run time
-	~30–60 seconds on a standard desktop computer
+	A minimal dataset (demo_dataset.csv) is provided for demonstration. This demo is a simplified subset of the full fossil dataset to allow quick testing of the code.
+	Running instruction:
+		Open R or RStudio (version 4.3.2 or later)
+		Load the required packages and demo script (demo.R)
+	Expected output
+		Figure 1: Demo trace fossil point distribution. Circle sizes denotes the lengths of traces
+		Figure 2: Density plot of points
+		Figure 3: Pair correlation function (PCF) curve
+		Figure 4: Mark correlation function (MCF) plot
+	 Expected run time
+		~30–60 seconds on a standard desktop computer
+4. Instructions for use
+	To run the software on your own dataset:
+		1. Prepare your data
+			Point data in CSV format with columns: X, Y, lenth (or other marks).
+			Edge/polygon boundary in CSV format with columns: X, Y. Or creat window by clickpoly (see details in codes)
+   		2. Load required packages and scripts in R/RStudio
+	 	3. Create analysis window and point pattern
+   		4. Run analysis 
+	 	All the instructions are annotated in the code file in details
