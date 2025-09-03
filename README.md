@@ -7,7 +7,7 @@ State Key Laboratory of Palaeobiology and Stratigraphy, Nanjing Institute of Geo
 University of Chinese Academy of Sciences, Beijing, 100049, China
 Department of Zoology, and the University Museum of Zoology, University of Cambridge, Cambridge, CB2 3EJ, UK
 
-Co-authors: Zhe Chen, Scott Evans, Shuhai Xiao, Xunlai Yuan, Emily Mitchell
+Co-authors: Zhe Chen, Scott Evans, Shuhai Xiao, Xunlai Yuan, Emily G. Mitchell
 
 Funding:
 This research was supported by Science Fund for Creative Research Groups of National Natural Science Foundation of China (42130207)
