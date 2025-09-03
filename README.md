@@ -16,17 +16,16 @@ S.X. was supported by the National Science Foundation (EAR-2021207).
 For the purpose of open access, the author has applied a Creative Commons Attribution 4.0 International (CC BY 4.0) license. licence to any Author Accepted Manuscript version arising. 
 
 Data:
-Supplementary Data.xlsx
 Contains data extracted from Ediacaran trace fossil Lamonte trevallis surface in the Shibantan biota, Yangtze Gorges area, South China. Length units are in centimeter. 
 
-Sheet1 all tracefossils: data of traces, connected plugs and isolated plugs. 
+SData1 all tracefossils: data of traces, connected plugs and isolated plugs. 
 	Containing positions(X, Y), axis length of plugs (Long axis, Short axis), orientation of plugs (Orientation), traces lengths (Length) and traces widths (Width). Extracted from Inkscape using a custom script written in Haskell (https://github.com/egmitchell/dex).
 
-Sheet2 segment positions: data of traces' segments.
+SData2 segment positions: data of traces' segments.
 	Start (x0,y0) and end (x1,y1) points of all segments.
 	Segments positions were extracted from Inkscape using a custom script written in Haskell (https://github.com/egmitchell/traces).  
 
-Sheet3 edge: positions of edge points
+Edge: positions of edge points
 
 Data collection dates: Data extracted from photographs 2023. 
 
