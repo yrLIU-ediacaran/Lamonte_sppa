@@ -66,6 +66,7 @@ Data collection dates: Data extracted from photographs 2023.
 		Figure 4: Mark correlation function (MCF) plot
 	 Expected run time
 		~30–60 seconds on a standard desktop computer
+  
 4. Instructions for use
 	To run the software on your own dataset:
 		1. Prepare your data
